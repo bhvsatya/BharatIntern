@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ce731e;
+}
+
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #07cb4f;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.calculator h1 {
+    text-align: center;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.result {
+    font-size: 24px;
+    text-align: center;
+}
